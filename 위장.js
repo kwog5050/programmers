@@ -17,4 +17,4 @@ function solution(clothes) {
   }
 
   return answer - 1;
-}
+} 

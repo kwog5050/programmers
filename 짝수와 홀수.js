@@ -4,4 +4,4 @@ function solution(num) {
   } else{
       return "Odd"
   }
-}
+} 

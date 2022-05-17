@@ -12,4 +12,4 @@ function solution(left, right) {
       sum = 0;
   }
   return total;
-}
+} 

@@ -30,4 +30,4 @@ function solution(lottos, win_nums) {
   }
 
   return answer;
-}
+} 

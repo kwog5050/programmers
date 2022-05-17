@@ -5,4 +5,4 @@ function solution(n) {
     i % 2 == 1 ? answer += arr[0] : answer += arr[1];
   }
   return answer;
-}
+} 

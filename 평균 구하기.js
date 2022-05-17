@@ -8,4 +8,4 @@ function solution(arr) {
   answer = answer / arr.length;
   
   return answer;
-}
+} 

@@ -6,4 +6,4 @@ function solution(price, money, count) {
     answer += sum;
   }
   return answer - money < 0 ? 0 : answer - money
-}
+} 

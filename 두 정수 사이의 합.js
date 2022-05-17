@@ -11,4 +11,4 @@ function solution(a, b) {
   }
   
   return sum;
-}
+}  

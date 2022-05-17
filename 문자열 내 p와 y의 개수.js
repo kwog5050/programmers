@@ -10,4 +10,4 @@ function solution(s){
     }
   }
   return p === y ? true : false;
-}
+} 

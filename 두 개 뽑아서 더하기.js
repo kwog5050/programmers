@@ -16,4 +16,4 @@ function solution(numbers) {
   answer = [...setAnswer].sort((a, b) => a - b);
   
   return answer;
-}
+} 

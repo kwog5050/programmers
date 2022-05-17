@@ -9,4 +9,4 @@ function solution(x) {
       sum += Number(b[i]);   
   }
   return x % sum == 0 ? true : false
-}
+} 
