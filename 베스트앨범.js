@@ -4,8 +4,10 @@ function solution(genres, plays) {
   let totalPlay = {};
   let totalArr = [];
   for (let i = 0; i < genres.length; i++){
+    //고유 id 발급
     song.push({ id: i, genre: genres[i], play: plays[i] });
 
+    // 토탈 재생수 구하기
     if (totalPlay[genres[i]] == undefined) {
       totalPlay[genres[i]] = plays[i];
     } else {
@@ -14,13 +16,17 @@ function solution(genres, plays) {
 
   }
 
+  //토탈 재생수 배열화
   for (let name in totalPlay) {
     totalArr.push([name, totalPlay[name]]);
   }
 
+  //각각 노래 재생수 정렬
   song.sort((a, b) => b.play - a.play);
+  //토탈 재생수 정렬
   totalArr.sort((a, b) => b[1] - a[1]);
 
+  //순위 값 넣기
   let index = 0;
   for (let i = 0; i < totalArr.length; i++){
     index = 0;
