@@ -33,6 +33,7 @@ function solution(genres, plays) {
     for (let j = 0; j < song.length; j++){
       if (song[j].genre == totalArr[i][0]) {
         index++;
+        //힌 장르가 두번들어갔으면 탈출
         if (index > 2) {
           break;
         }
