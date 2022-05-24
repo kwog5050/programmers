@@ -19,8 +19,3 @@ function solution(progresses, speeds) {
   console.log(answer);
   return answer;
 }
-
-solution([93, 30, 55],	[1, 30, 5]);
-
-//100 - 30 = 70 
-//70 < 30 * i 
