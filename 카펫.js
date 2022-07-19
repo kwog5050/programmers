@@ -27,8 +27,9 @@ function solution(brown, yellow) {
 
   return answer;
 }
-solution(8, 1);
-solution(20, 15);
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/42842
+
 /**
  * 가로길이가 세로랑 같거나 세로보다 김
  * 갈색카펫이 노란색 블럭을 감싸고있음

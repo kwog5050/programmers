@@ -43,4 +43,4 @@ function solution(answers) {
   return answer;
 }
 
-solution([1,3,2,4,2]);
+// https://school.programmers.co.kr/learn/courses/30/lessons/42840

@@ -3,3 +3,5 @@ function solution(a, b) {
   let day = new Date(`2016-${a}-${b}`).getDay();
   return answer[day];
 } 
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/12901

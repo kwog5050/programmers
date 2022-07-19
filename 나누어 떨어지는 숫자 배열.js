@@ -13,3 +13,5 @@ function solution(arr, divisor) {
 
   return answer.sort((a, b) => a - b);
 } 
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/12910

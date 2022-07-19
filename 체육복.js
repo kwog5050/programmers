@@ -13,6 +13,8 @@ function solution(n, lost, reserve) {
 
 solution(5	,[2, 4]	,[1, 3, 5]);
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/42862
+
 /**
  * 반 전체 배열을 받는다
  * 체육복 안가져온 번호를 찾는다

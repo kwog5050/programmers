@@ -7,3 +7,5 @@ function solution(price, money, count) {
   }
   return answer - money < 0 ? 0 : answer - money
 } 
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/82612
